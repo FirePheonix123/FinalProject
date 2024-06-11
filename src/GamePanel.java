@@ -1,13 +1,10 @@
 import java.awt.*;
 import javax.swing.*;
 public class GamePanel {
-    //The 4 variables below are used to for creating the GUI(Graphical User Interface), which was created with the help of google
-    //and searching up 'how to create a GUI in java' hence where similar code, such as the imports come from.
     private JFrame frame = new JFrame("Minesweeper");
     private JLabel textLabel = new JLabel();
     private JPanel textPanel = new JPanel();
     private JPanel boardPanel = new JPanel();
-    //Below are 2 constructors used to be called from another class and set the dimensions for the GUI
     public GamePanel(){
     }
     public GamePanel(int boardWidth, int boardHeight, int numRows, int numCols, String username){
