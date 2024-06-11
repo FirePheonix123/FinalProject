@@ -1,5 +1,3 @@
-
-//Below are 2 panels
 import java.awt.*;
 import javax.swing.*;
 public class GamePanel {

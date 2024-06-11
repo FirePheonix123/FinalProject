@@ -1,6 +1,3 @@
-
-//These are the imports needed to use some of the objects that cannot be used otherwise, such as the GUI, and the
-//other more commanly known Scanner, Random and array list imports.
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;

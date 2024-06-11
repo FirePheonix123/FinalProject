@@ -1,4 +1,3 @@
-
 import javax.swing.*;
 public class Ships extends JButton {
     int r;
