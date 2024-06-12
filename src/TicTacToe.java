@@ -1,7 +1,7 @@
 import java.awt.*;
-        import java.awt.event.*;
-        import java.util.*;
-        import javax.swing.*;
+import java.awt.event.*;
+import java.util.*;
+import javax.swing.*;
 
 public class TicTacToe implements ActionListener{
 
@@ -35,7 +35,7 @@ public class TicTacToe implements ActionListener{
         button_panel.setLayout(new GridLayout(3,3));
         button_panel.setBackground(new Color(150,150,150));
 
-        for(int i=0;i<9;i++) {
+        for(int i = 0; i < 9; i++) {
             buttons[i] = new JButton();
             button_panel.add(buttons[i]);
             buttons[i].setFont(new Font("Arial",Font.BOLD,120));
